@@ -1,0 +1,84 @@
+/* ======= Base ======= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+body{
+    background-color: black;
+}
+
+/* ======= heading ======= */
+
+.container{
+    border: 1px solid white;
+    /* overflow: hidden; */
+    /* min-width: 400px; */
+    /* min-height: 600px; */
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(237, 229, 230);
+    
+}
+.heading{
+    margin: 25px 0;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+/* ======= Calc Input ======= */
+.input{
+
+    /* margin-top: 1rem; */
+    /* text-align: center; */
+    
+}
+.calc__input{
+ 
+    margin-bottom: 20px;
+    text-align: right;
+    margin-top: 25px;
+    border-radius: 5px;
+    width: 82%;
+    height: 30px;
+    font-size: 30px;
+    padding: 1.5rem;
+    color: rgb(62, 62, 145);
+    outline: none;
+    padding-inline: 1px ;
+   
+}
+
+/* ======= Calc btn ======= */
+
+button{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin: 10px;
+    padding: 1rem;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.calc__btn {
+    padding: 1.5rem;
+}
+
+.calc:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
